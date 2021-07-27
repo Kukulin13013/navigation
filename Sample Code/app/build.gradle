@@ -34,6 +34,11 @@ android {
         python {
             // python path
             buildPython "D:/python36/python.exe"
+
+            pip{
+                install "numpy"
+                install "opencv_python == 3.4.2.16"
+            }
         }
     }
 
